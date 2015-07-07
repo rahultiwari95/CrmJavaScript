@@ -1,7 +1,7 @@
 function formatPhoneNumber(context) {
     var phoneNumber = context.getEventSource();
 
-    // Verify that the field is valid
+    // Verify that the field is valid To Test Git
     if (typeof (phoneNumber) != "undefined" && phoneNumber != null) {
         if (phoneNumber.getValue() != null) {
             // Remove any special characters

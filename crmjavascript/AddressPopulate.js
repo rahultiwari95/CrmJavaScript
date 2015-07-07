@@ -21,7 +21,6 @@
 
     //Get input control for Google places    
     var autocomplete;
-  
     var CompositeAddrss = Xrm.Page.getAttribute('address1_composite');
     var OnlyAddress = Xrm.Page.getAttribute('address1_line1');
     var CompositeBillAddrss = Xrm.Page.getAttribute('address2_composite');
