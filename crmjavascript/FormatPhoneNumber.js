@@ -1,6 +1,6 @@
 function formatPhoneNumber(context) {
     var phoneNumber = context.getEventSource();
-
+    //Added By Rahul Tiwari
     // Verify that the field is valid 
     if (typeof (phoneNumber) != "undefined" && phoneNumber != null) {
         if (phoneNumber.getValue() != null) {
